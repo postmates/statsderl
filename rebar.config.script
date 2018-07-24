@@ -10,7 +10,7 @@ Config = case erlang:function_exported(rebar3, main, 1) of
             {metal, ".*",
                 {git, "https://github.com/lpgauth/metal.git", {tag, "0.1.1"}}},
             {parse_trans, ".*",
-                {git, "https://github.com/uwiger/parse_trans.git", {tag, "3.0.0"}}}
+                {git, "https://github.com/uwiger/parse_trans.git", {tag, "3.2.0"}}}
         ]} | lists:keydelete(deps, 1, CONFIG)]
 end,
 
